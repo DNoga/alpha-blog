@@ -21,6 +21,14 @@ $navbar-default-bg: #00B2EE;
   text-align: center;
 }
 
+.navbar-default .navbar-nav > li > a:hover {
+  color: #000 !important;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #FFF !important;
+}
+
 .jumbotron {
   background-image: asset-url('new_cover.jpg');
   background-size: cover;
@@ -52,6 +60,15 @@ $navbar-default-bg: #00B2EE;
   background-color: black;
 }
 
+.article-actions {
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+}
+
+.description {
+  margin-top: 0;
+}
+
 footer {
   margin-top: 45px;
   padding-top: 5px;
@@ -77,10 +94,4 @@ footer ul li {
   margin-left: 15px;
 }
 
-.navbar-default .navbar-nav > li > a:hover {
-  color: #000 !important;
-}
 
-.navbar-default .navbar-nav > li > a {
-  color: #FFF !important;
-}
