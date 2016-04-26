@@ -1,4 +1,4 @@
-$navbar-default-bg: #08088A;
+$navbar-default-bg: #00B2EE;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -75,4 +75,12 @@ footer ul {
 footer ul li {
   float: left;
   margin-left: 15px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #000 !important;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #FFF !important;
 }
